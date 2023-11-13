@@ -24,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Email sent successfully";
     } else {
         echo "Failed to send email";
+        alert("no")
     }
 } else {
     echo "Invalid request";

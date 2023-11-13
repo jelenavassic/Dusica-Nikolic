@@ -154,6 +154,7 @@
   }
   #form{
     margin-top: 1rem;
+    width: 90%;
   }
   #form textarea {
     height: 25vh;
