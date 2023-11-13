@@ -109,7 +109,7 @@
   }
   #main img {
     width: 100%;
-    margin-top: 9%;
+    /* margin-top: 3%; */
   }
   #p {
     width: 100%;
@@ -126,11 +126,10 @@
     }
   }
   .mainBtn {
-    padding: 2%;
-    margin-top: 5%;
+     margin-top: 5%;
   }
   #hamitems {
-    animation: slide-in-right 1s ease-out;
+    animation: slide-in-right 0.5s ease-out;
   }
   @keyframes slide-in-right {
     from {
@@ -144,37 +143,40 @@
   }
   #contact {
     flex-direction: column;
-    width: 89%;
-    padding: 1rem 2rem;
+    width: 90%;
+    padding: 1rem;
     align-items: center;
   }
 
   #contact input {
-    height: 5vh;
+    height: 8vh;
     width: 100%;
   }
   #form textarea {
-    height: 20vh;
+    height: 25vh;
     width: 100%;
   }
   #form ::placeholder {
     font-size: 0.5rem;
   }
   form #submit {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   #contactMe {
     gap: 0;
   }
+  .headline{
+    font-size: 1.5rem;
+  }
   #socials {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   footer {
     font-size: 0.7rem;
-      /* align-items: center; */
+      align-items: center;
 
   }
   
