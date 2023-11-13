@@ -177,6 +177,8 @@
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  #socials i{
+font-size: 2.5rem;}
   footer {
     font-size: 0.7rem;
       align-items: center;
