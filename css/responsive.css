@@ -152,6 +152,9 @@
     height: 8vh;
     width: 100%;
   }
+  #form{
+    margin-top: 1rem;
+  }
   #form textarea {
     height: 25vh;
     width: 100%;
