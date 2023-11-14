@@ -156,8 +156,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7% 3%;
-  width: 25%;
+  padding: 5% 3%;
+  width: 30%;
   font-size: large;
   /* box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519); */
   color: #988270;

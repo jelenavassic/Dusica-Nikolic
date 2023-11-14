@@ -3,7 +3,7 @@
   #p {
     width: 30%;
     font-size: smaller;
-    padding: 7% 3%;
+    /* padding: 7% 3%; */
 
   }
 }
@@ -71,9 +71,9 @@
     font-size: 0.8rem;
   }
 
-  /* #p {
-    font-size: 0.6rem;
-  } */
+  #p {
+    font-size: 0.7rem;
+  }
 
   .mainBtn {
     padding: 4%;
