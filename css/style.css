@@ -346,15 +346,20 @@ h4,
 .text {
   /* width: 25rem;
   height: 3rem; */
-  width: 50vw;
-  height: 9vh;
+  width: 19.5vw;
+  height: 7vh;
   background: transparent;
   outline: none;
   padding-left: 1rem;
   font-size: 1.2rem;
   background-color:  #fdf8fd;
 }
-
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  gap:1vw;
+  justify-content: space-between;
+}
 /* .error {
   display: none;
   color: red;
@@ -364,8 +369,8 @@ h4,
 #form textarea {
   font-size: 1.2rem;
   /* width: 25rem; */
-  width: 50vw;
-  height: 40vh;
+  width: 40vw;
+  height: 30vh;
   /* height: 10rem; */
   padding-left: 1rem;
   padding-top: 1rem;
@@ -390,6 +395,8 @@ h4,
   width: 30%;
   color: black;
   height: 7vh;
+  font-family: newFont;
+
   /* border-radius: 25px; */
   margin-top: 1rem;
   background-color:  #fdf8fd;

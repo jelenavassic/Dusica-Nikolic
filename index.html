@@ -103,20 +103,22 @@
           </div>
         </div>
         <form id="form" action="form.php" method="post">
-          <input
-            type="text"
-            class="text"
-            id="name"
-            name="name"
-            placeholder="Name"
-          />
-          <input
-            type="email"
-            class="text"
-            id="email"
-            name="email"
-            placeholder="Email"
-          />
+          <div class="flex-row"> 
+            <input
+              type="text"
+              class="text"
+              id="name"
+              name="name"
+              placeholder="Naam"
+            />
+            <input
+              type="email"
+              class="text"
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+           </div>
           <!-- <p class="error">Invalid email</p> -->
           <textarea name="message" placeholder="Message"></textarea>
           <input type="submit" id="submit" name="submit" value="Send" />
