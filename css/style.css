@@ -340,7 +340,7 @@ h4,
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1vw;
 }
 
 .text {
@@ -359,6 +359,7 @@ h4,
   flex-direction: row;
   gap:1vw;
   justify-content: space-between;
+  
 }
 /* .error {
   display: none;
@@ -385,6 +386,7 @@ h4,
 }
 
 #submit {
+  border: none;
   /* background-color: blue; */
   display: flex;
   align-items: center;
@@ -399,11 +401,11 @@ h4,
 
   /* border-radius: 25px; */
   margin-top: 1rem;
-  background-color:  #fdf8fd;
+  background-color: #e8ccb5;
 
 }
 #submit:hover {
-  background-color: #e8ccb5;
+  background-color: #988270;
 }
 
 footer {

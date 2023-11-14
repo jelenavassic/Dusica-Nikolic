@@ -88,6 +88,7 @@
 }
 #contact input {
   height: 8vh;
+  width:24.5vw;;
 }
   #form textarea {
     height: 30vh;
@@ -178,6 +179,15 @@
     margin-top: 1rem;
     width: 90%;
   }
+  .flex-row{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap:1vw;
+    justify-content: space-between;
+  }
+
   #form textarea {
     height: 25vh;
     width: 100%;
