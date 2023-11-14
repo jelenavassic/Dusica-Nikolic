@@ -188,6 +188,7 @@
   form #submit {
     width: 30%;
     font-size: 0.9rem;
+    padding: 5%;
   }
   #contactMe {
     gap: 0;
