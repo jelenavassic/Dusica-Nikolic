@@ -312,7 +312,7 @@ h4,
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 3rem;
+  gap: 2rem;
   /* width: 100%; */
   grid-auto-flow: row;
   overflow: auto;
@@ -320,12 +320,17 @@ h4,
   /* box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519); */
   /* padding: 10% 0; */
 }
+
 /* .video-item{
   width:30%;
-}
-.video-item iframe{
- width: auto;
 } */
+.video-item iframe{
+ width: 40vw;
+ aspect-ratio: 16 / 9;
+
+}
+ 
+
 
 /* /////////////////////////////  CONTACT  //////////////////////////////// */
 

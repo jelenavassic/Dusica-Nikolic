@@ -111,6 +111,11 @@
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr 1fr; */
   }
+  .video-item iframe{
+    width: 70vw;
+    aspect-ratio: 16 / 9;
+   
+   }
 }
 
 /* /* Extra small devices (phones, 600px and down) */
@@ -202,8 +207,8 @@ font-size: 2rem;
 }
   footer {
     font-size: 0.7rem;
-      align-items: center;
-
+      /* align-items: center; */
+/* justify-content: center; */
   }
   
    
