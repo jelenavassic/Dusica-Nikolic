@@ -239,7 +239,7 @@ main {
 }
 #text {
   background-color: #fdf8fd;
-  animation: fade-in 2s ease-out forwards;
+  animation: fade-in 1s ease-out forwards;
 
   padding: 2% 5%;
   width: 85%;
