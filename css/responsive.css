@@ -164,7 +164,7 @@
     }
   }
   #contact {
-    flex-direction: column;
+    /* flex-direction: column; */
     width: 100%;
     padding: 1rem;
     align-items: center;
@@ -196,13 +196,14 @@
   .headline{
     font-size: 1.5rem;
   }
-  #socials {
-    /* margin-top: 1rem; */
+  /* #socials {
+    margin-top: 1rem;
+    gap: 1.5rem;
     margin-bottom: 2rem;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1.5rem;
-  }
+   
+  } */
   #socials i{
 font-size: 2rem;
 }
