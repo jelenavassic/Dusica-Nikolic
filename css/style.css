@@ -75,6 +75,7 @@ body {
   flex-direction: row;
   cursor: pointer;
   justify-content: space-around;
+  align-items: center;
   /* gap:2rem; */
 }
 
