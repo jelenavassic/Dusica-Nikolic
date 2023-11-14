@@ -1,7 +1,7 @@
 /* /// Large devices (laptops/desktops, 992px and up)//////////////// */
 @media only screen and (max-width: 1200px) {
   #p {
-    width: 30%;
+    /* width: 30%; */
     font-size: smaller;
     /* padding: 7% 3%; */
 
@@ -10,9 +10,9 @@
 
 /* /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
-  .nameTitle {
+  /* .nameTitle {
     font-size: 3rem;
-  }
+  } */
   #navigation a {
     font-size: 1rem;
   }
@@ -165,7 +165,7 @@
   }
   #contact {
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     padding: 1rem;
     align-items: center;
   }
