@@ -17,7 +17,7 @@ let menuResize = function(){
     hamnav.style.display="none";
    }
   else {
-    aboutImg.setAttribute('src', '../media/photo/2.jpg');
+    // aboutImg.setAttribute('src', '../media/photo/2.jpg');
     navigation.style.display = "none";
     hamnav.style.display="flex";
   }

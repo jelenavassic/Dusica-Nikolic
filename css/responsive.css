@@ -86,6 +86,9 @@
   width: 50vw;
 
 }
+#contact input {
+  height: 8vh;
+}
   #form textarea {
     height: 30vh;
     width: 50vw;
