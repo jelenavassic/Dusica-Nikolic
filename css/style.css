@@ -391,5 +391,6 @@ footer {
   align-items: center;
   justify-content: center;
   /* box-shadow: 1px 1px 8px rgba(58, 40, 45, 0.519); */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: newFont;
 }
