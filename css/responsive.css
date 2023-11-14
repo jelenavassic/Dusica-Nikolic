@@ -1,5 +1,11 @@
 /* /// Large devices (laptops/desktops, 992px and up)//////////////// */
 @media only screen and (max-width: 1200px) {
+  #p {
+    width: 30%;
+    font-size: smaller;
+    padding: 7% 3%;
+
+  }
 }
 
 /* /* Medium devices (landscape tablets, 768px and up) */
@@ -15,7 +21,9 @@
   }
   #p {
     width: 30%;
-    font-size: smaller;
+    font-size: small;
+    padding: 5% 3%;
+
   }
   .about {
     width: 75%;
@@ -31,7 +39,7 @@
     font-size: smaller;
   }
   #contact {
-    width: 70%;
+    /* width: 70%; */
     /* padding: 2rem 3rem; */
     padding: 1rem 3rem;
   }
@@ -73,12 +81,18 @@
   .mainBtn a {
     font-size: 0.6rem;
   }
+.text {
+
+  width: 50vw;
+
+}
   #form textarea {
-    height: 20vh;
+    height: 30vh;
+    width: 50vw;
   }
-  #socials a {
+  /* #socials a {
     font-size: 1.5rem;
-  }
+  } */
   h2 {
     font-size: medium;
   }
@@ -161,14 +175,15 @@
     width: 100%;
   }
   #form ::placeholder {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   form #submit {
+    width: 30%;
     font-size: 0.9rem;
   }
   #contactMe {
     gap: 0;
-  }
+   }
   .headline{
     font-size: 1.5rem;
   }
@@ -177,9 +192,11 @@
     margin-bottom: 2rem;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
   }
   #socials i{
-font-size: 2.5rem;}
+font-size: 2rem;
+}
   footer {
     font-size: 0.7rem;
       align-items: center;
@@ -194,7 +211,7 @@ height: 15rem;
  left: 0;
  margin-top: 10%;
   /* width: 100%; */
- 
+ /* height: 120%; */
 }
 .about{
   /* background-color: brown; */
