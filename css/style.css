@@ -395,13 +395,13 @@ h4,
   font-family: monospace;
   font-size: 1.1rem;
   width: 30%;
-  color: black;
+  color:  #e8ccb5;
   height: 7vh;
   font-family: newFont;
 
   /* border-radius: 25px; */
   margin-top: 1rem;
-  background-color: #e8ccb5;
+  background-color: #794a24;
 
 }
 #submit:hover {
