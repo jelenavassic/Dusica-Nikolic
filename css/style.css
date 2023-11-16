@@ -413,20 +413,21 @@ h4,
   font-family: monospace;
   font-size: 1.1rem;
   width: 30%;
-  color:  #e8ccb5;
+  color:  #192024;
   height: 7vh;
-  font-family: newFont;
+  font: newFont bold larger;
 
   /* border-radius: 25px; */
   margin-top: 1rem;
-  background-color: #794a24;
+  background-color: #524236;
 
 }
 #submit:hover {
-  background-color: #988270;
+  background-color: #e8ccb5;
 }
 .footer{
   padding-top: 1rem;
+  /* margin: 0; */
 }
 footer {
   padding: 0 auto;
