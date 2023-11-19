@@ -49,5 +49,27 @@ document.getElementById("form").addEventListener("submit", function (event) {
 });
 
 
+document.getElementById("form").addEventListener("submit", function (event) {
+  var emailInput = document.getElementById("email");
+  var errorElement = document.querySelector(".error");
+  var submitButton = document.getElementById("submit");
 
+  // Check if the email field is empty
+  if (emailInput.value.trim() === "") {
+    // Display the error message
+    errorElement.style.display = "block";
+
+    // Disable the submit button
+    submitButton.disabled = true;
+
+    // Prevent the form from being submitted
+    event.preventDefault();
+  } else {
+    // If the email field is not empty, hide the error message
+    errorElement.style.display = "none";
+
+    // Enable the submit button
+    submitButton.disabled = false;
+  }
+});
  
