@@ -1,5 +1,5 @@
 # Dusica-Nikolic
-[See the preview of Dusica's website](https://main--profound-tanuki-b2b68b.netlify.app/)
+[See Dusica's website](https://dusicanikolic.com/)
 
 ## Overview
 
