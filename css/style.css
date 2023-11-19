@@ -380,11 +380,11 @@ h4,
   justify-content: space-between;
   
 }
-/* .error {
+.error {
   display: none;
   color: red;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
+}
 
 #form textarea {
   font-size: 1.2rem;
@@ -420,7 +420,7 @@ h4,
 
   /* border-radius: 25px; */
   margin-top: 1rem;
-  background-color: #524236;
+  background-color: #4a9feb;
 
 }
 #submit:hover {

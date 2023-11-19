@@ -22,9 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (mail($to, $subject, $email_message, $headers)) {
         echo "Email sent successfully";
+        header('Location: /');
     } else {
         echo "Failed to send email";
-        alert("no")
     }
 } else {
     echo "Invalid request";

@@ -28,6 +28,25 @@ window.addEventListener('resize', menuResize);
 menuResize()
 
 
+document.getElementById("form").addEventListener("submit", function (event) {
+  // Get the email input element
+  var emailInput = document.getElementById("email");
+
+  // Get the error message element
+  var errorElement = document.querySelector(".error");
+
+  // Check if the email field is empty
+  if (emailInput.value.trim() === "") {
+    // Display the error message
+    errorElement.style.display = "block";
+
+    // Prevent the form from being submitted
+    event.preventDefault();
+  } else {
+    // If the email field is not empty, hide the error message
+    errorElement.style.display = "none";
+  }
+});
 
 
 
